@@ -2,11 +2,11 @@
 
 int main(int argc, char** argv)
 {
-    long long int A = 0;
+    long long int a = 0;
 
-    scanf_s("%lld", &A);
+    scanf_s("%lld", &a);
 
-    printf("%lld", A * A);
+    printf("%lld", a * a);
 
     return 0;
 }

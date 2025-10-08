@@ -6,9 +6,7 @@ int main(int argc, char** argv)
 
     scanf_s("%d", &n);
 
-    n = n % 100 / 10;
-
-    printf("%d", n);
+    printf("%d", n % 100 / 10);
 
     return 0;
 }

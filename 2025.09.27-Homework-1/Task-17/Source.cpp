@@ -7,5 +7,6 @@ int main(int argc, char** argv)
     scanf_s("%d", &n);
 
     printf("%d", n / 100 + n / 10 % 10 + n % 10);
+
     return 0;
 }

@@ -2,11 +2,11 @@
 
 int main(int argc, char** argv)
 {
-    int K = 0;
+    int k = 0;
 
-    scanf_s("%d", &K);
+    scanf_s("%d", &k);
 
-    printf("%d", (K - 1) * 5);
+    printf("%d", (k - 1) * 5);
 
     return 0;
 }

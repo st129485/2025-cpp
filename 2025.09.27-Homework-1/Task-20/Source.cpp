@@ -2,13 +2,13 @@
 
 int main(int argc, char** argv)
 {
-    long long int N = 0;
-    long long int K = 0;
+    long long int n = 0;
+    long long int k = 0;
 
-    scanf_s("%lld", &N);
-    scanf_s("%lld", &K);
+    scanf_s("%lld", &n);
+    scanf_s("%lld", &k);
 
-    printf("%lld %lld %lld", K / N, K % N, (N - K % N) * bool(K % N != 0));
+    printf("%lld %lld %lld", k / n, k % n, (n - k % n) * bool(k % n != 0));
 
     return 0;
 }

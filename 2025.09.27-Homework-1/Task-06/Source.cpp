@@ -2,13 +2,13 @@
 
 int main(int argc, char** argv)
 {
-	int G = 0;
-	int L = 0;
+	int g = 0;
+	int l = 0;
 
-	scanf_s("%d", &G);
-	scanf_s("%d", &L);
+	scanf_s("%d", &g);
+	scanf_s("%d", &l);
 
-	printf("%d %d", L - 1, G - 1);
+	printf("%d %d", l - 1, g - 1);
 
 	return 0;
 }
