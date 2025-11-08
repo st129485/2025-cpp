@@ -4,7 +4,7 @@
 int main(int argc, char** argv)
 {
 	int arr_size = 0;
-	scanf("%d", &arr_size);											// во всех задачах использован scanf, тк scanf_s сайт не распознаёт при проверке
+	scanf("%d", &arr_size);											// scanf is used in all tasks, because scanf_s isn't recognized by site
 	long int* arr = (long int*)calloc(arr_size, sizeof(long int));
 	for (long int iter = 0; iter < arr_size; ++iter)
 	{
